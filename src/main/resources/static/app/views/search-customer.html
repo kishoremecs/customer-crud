@@ -1,0 +1,13 @@
+
+<div class="page-header">
+  <h3>Search Customers.</h3>
+</div>
+
+ <div class="form-group">
+    <label for="name">Search Customer By Name</label>
+    <input type="text" class="form-control" id="name" placeholder="Name" ng-model="customerName">
+	<button type="button" class="btn btn-default" ng-click="searchCustomer()">Search</button>
+  </div>
+
+
+<div ui-grid="gridOptions"></div>
